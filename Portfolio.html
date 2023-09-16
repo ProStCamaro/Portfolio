@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Joseph Frechette's Portfolio</h1>
+        <nav>
+            <ul>
+                <li class="active"><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="content-section">
+        <h2>About Me</h2>
+        <img src="avatar.jpg" alt="Developer's Avatar">
+        <p>Short bio about the developer goes here.</p>
+    </section>
+
+    <section id="portfolio" class="content-section">
+        <h2>Portfolio</h2>
+        <div class="portfolio-item">
+        </div>
+        <!-- Add more portfolio items here -->
+    </section>
+
+    <section id="contact" class="content-section">
+        <h2>Want to contact me?</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="resume" class="content-section">
+        <h2>Resume</h2>
+        <p><a href="resume.pdf" download>Download Resume</a></p>
+        <ul>
+            <li>Proficiency 1</li>
+            <li>Proficiency 2</li>
+            <li>Proficiency 3</li>
+            <!-- Add more proficiencies here -->
+        </ul>
+    </section>
+
+    <footer>
+        <a href="https://github.com/ProStCamaro">GitHub</a>
+        <!-- Add more links/icons for other platforms -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
